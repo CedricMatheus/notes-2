@@ -1,0 +1,37 @@
+<!-- titulo -->
+<h1>Editar Nota</h1>
+
+<!-- formulário -->
+<div class="container">
+    <form id="form_editar" name='editar' method="POST">
+        <!-- username -->
+        <input type="hidden" id="username" name="username">
+
+        <!-- password -->
+        <input type="hidden" id="password" name="password">
+
+        <!-- id -->
+        <input type="hidden" id="id_nota" name="id_nota">
+        
+        <!-- titulo input -->
+        <div class="form-group row">
+            <label class="col-1 col-form-label" for="titulo">Título</label>
+            <div class="col-11">
+                <input type="text" class="form-control" id="titulo"
+                    name="titulo" placeholder="Título">
+            </div>
+        </div>
+
+        <!-- nota text -->
+        <div class="form-group text-left">
+            <textarea class="form-control" id="nota" name="nota" rows="5"
+                placeholder="Nota"></textarea>
+        </div>
+
+        <!-- button login -->
+        <div class="text-right">
+            <a href="paginas/listar.html" id="bot_cancelar_nota" class="btn btn-primary">Cancelar</a>
+            <button type="submit" class="btn btn-primary">Salvar Nota</button>
+        </div>
+    </form>
+</div>

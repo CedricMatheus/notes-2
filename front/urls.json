@@ -1,0 +1,9 @@
+{
+  "login": "http://127.0.0.1:8000/notas/login/",
+  "cadastrar": "http://127.0.0.1:8000/notas/cadastrar/",
+  "listar": "http://127.0.0.1:8000/notas/listar/",
+  "nova": "http://127.0.0.1:8000/notas/nova/",
+  "carregar": "http://127.0.0.1:8000/notas/carregar/",
+  "editar": "http://127.0.0.1:8000/notas/editar/",
+  "deletar": "http://127.0.0.1:8000/notas/deletar/"
+}
